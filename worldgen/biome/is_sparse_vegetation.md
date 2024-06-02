@@ -1,0 +1,26 @@
+---
+layout: tag
+title: c/biome/is_sparse_vegetation (worldgen tag)
+tag_type: worldgen
+tag_content: {
+  "values": [
+    "#c:is_sparse_vegetation/overworld",
+    {
+      "id": "#c:is_sparse_vegetation/nether",
+      "required": false
+    },
+    {
+      "id": "#c:is_sparse_vegetation/end",
+      "required": false
+    },
+    {
+      "id": "#forge:is_sparse_vegetation",
+      "required": false
+    },
+    {
+      "id": "#forge:is_sparse",
+      "required": false
+    }
+  ]
+}
+---

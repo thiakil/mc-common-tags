@@ -1,0 +1,17 @@
+---
+layout: tag
+title: c/biome/is_dense_vegetation/overworld (worldgen tag)
+tag_type: worldgen
+tag_content: {
+  "values": [
+    "minecraft:dark_forest",
+    "minecraft:old_growth_birch_forest",
+    "minecraft:old_growth_spruce_taiga",
+    "minecraft:jungle",
+    {
+      "id": "#forge:is_dense/overworld",
+      "required": false
+    }
+  ]
+}
+---

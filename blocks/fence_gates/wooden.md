@@ -1,0 +1,24 @@
+---
+layout: tag
+title: c/fence_gates/wooden (blocks tag)
+tag_type: blocks
+tag_content: {
+  "values": [
+    "minecraft:oak_fence_gate",
+    "minecraft:spruce_fence_gate",
+    "minecraft:birch_fence_gate",
+    "minecraft:jungle_fence_gate",
+    "minecraft:acacia_fence_gate",
+    "minecraft:dark_oak_fence_gate",
+    "minecraft:crimson_fence_gate",
+    "minecraft:warped_fence_gate",
+    "minecraft:mangrove_fence_gate",
+    "minecraft:bamboo_fence_gate",
+    "minecraft:cherry_fence_gate",
+    {
+      "id": "#forge:fence_gates/wooden",
+      "required": false
+    }
+  ]
+}
+---

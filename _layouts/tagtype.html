@@ -1,0 +1,21 @@
+---
+layout: page
+---
+
+{{ content }}
+
+{% assign tag_type = page.name | split: "." | first %}
+{% assign type_prefix_length = tag_type | size  %}
+{% assign type_prefix_length_path = type_prefix_length|plus:1  %}
+
+<ul>
+    {% assign pages_by_path = site.pages | sort: 'path' %}
+{%- for item in pages_by_path -%}
+    {% if item.tag_content %}
+    {% assign item_prefix = item.path | slice:0,type_prefix_length %}
+    {% if item_prefix == tag_type %}
+    <li><a href="{{item.url | relative_url}}">{{item.path | slice:type_prefix_length_path,9999| split:"."|first }}</a></li>
+    {% endif %}
+    {% endif %}
+{%- endfor -%}
+</ul>

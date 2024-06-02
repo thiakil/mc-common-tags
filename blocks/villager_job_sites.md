@@ -1,0 +1,25 @@
+---
+layout: tag
+title: c/villager_job_sites (blocks tag)
+tag_type: blocks
+tag_content: {
+  "values": [
+    "minecraft:barrel",
+    "minecraft:blast_furnace",
+    "minecraft:brewing_stand",
+    "minecraft:cartography_table",
+    "minecraft:cauldron",
+    "minecraft:water_cauldron",
+    "minecraft:lava_cauldron",
+    "minecraft:powder_snow_cauldron",
+    "minecraft:composter",
+    "minecraft:fletching_table",
+    "minecraft:grindstone",
+    "minecraft:lectern",
+    "minecraft:loom",
+    "minecraft:smithing_table",
+    "minecraft:smoker",
+    "minecraft:stonecutter"
+  ]
+}
+---

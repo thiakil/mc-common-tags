@@ -1,0 +1,30 @@
+---
+layout: tag
+title: c/dyed/pink (blocks tag)
+tag_type: blocks
+tag_content: {
+  "values": [
+    "minecraft:pink_banner",
+    "minecraft:pink_bed",
+    "minecraft:pink_candle",
+    "minecraft:pink_carpet",
+    "minecraft:pink_concrete",
+    "minecraft:pink_concrete_powder",
+    "minecraft:pink_glazed_terracotta",
+    "minecraft:pink_shulker_box",
+    "minecraft:pink_stained_glass",
+    "minecraft:pink_stained_glass_pane",
+    "minecraft:pink_terracotta",
+    "minecraft:pink_wall_banner",
+    "minecraft:pink_wool",
+    {
+      "id": "#forge:glass/pink",
+      "required": false
+    },
+    {
+      "id": "#forge:stained_glass/pink",
+      "required": false
+    }
+  ]
+}
+---

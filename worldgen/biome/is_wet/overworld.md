@@ -1,0 +1,21 @@
+---
+layout: tag
+title: c/biome/is_wet/overworld (worldgen tag)
+tag_type: worldgen
+tag_content: {
+  "values": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:beach",
+    "minecraft:lush_caves",
+    "minecraft:dripstone_caves",
+    {
+      "id": "#forge:is_wet/overworld",
+      "required": false
+    }
+  ]
+}
+---

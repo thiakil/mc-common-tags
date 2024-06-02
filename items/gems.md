@@ -1,0 +1,19 @@
+---
+layout: tag
+title: c/gems (items tag)
+tag_type: items
+tag_content: {
+  "values": [
+    "#c:gems/amethyst",
+    "#c:gems/diamond",
+    "#c:gems/emerald",
+    "#c:gems/lapis",
+    "#c:gems/prismarine",
+    "#c:gems/quartz",
+    {
+      "id": "#forge:gems",
+      "required": false
+    }
+  ]
+}
+---

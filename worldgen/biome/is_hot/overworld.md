@@ -1,0 +1,25 @@
+---
+layout: tag
+title: c/biome/is_hot/overworld (worldgen tag)
+tag_type: worldgen
+tag_content: {
+  "values": [
+    "minecraft:swamp",
+    "minecraft:mangrove_swamp",
+    "minecraft:jungle",
+    "minecraft:bamboo_jungle",
+    "minecraft:sparse_jungle",
+    "minecraft:desert",
+    "minecraft:eroded_badlands",
+    "minecraft:savanna",
+    "minecraft:savanna_plateau",
+    "minecraft:windswept_savanna",
+    "minecraft:stony_peaks",
+    "minecraft:warm_ocean",
+    {
+      "id": "#forge:is_hot/overworld",
+      "required": false
+    }
+  ]
+}
+---

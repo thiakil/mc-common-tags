@@ -1,0 +1,21 @@
+---
+layout: tag
+title: c/ores_in_ground/deepslate (blocks tag)
+tag_type: blocks
+tag_content: {
+  "values": [
+    "minecraft:deepslate_coal_ore",
+    "minecraft:deepslate_copper_ore",
+    "minecraft:deepslate_diamond_ore",
+    "minecraft:deepslate_emerald_ore",
+    "minecraft:deepslate_gold_ore",
+    "minecraft:deepslate_iron_ore",
+    "minecraft:deepslate_lapis_ore",
+    "minecraft:deepslate_redstone_ore",
+    {
+      "id": "#forge:ores_in_ground/deepslate",
+      "required": false
+    }
+  ]
+}
+---

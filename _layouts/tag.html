@@ -1,0 +1,17 @@
+---
+layout: page
+---
+<h1>{{page.title}}</h1>
+{{ content }}
+
+{% assign values_size = page.tag_content.values | size %}
+{% if values_size != 0 %}
+<h3>Contents</h3>
+<ul>
+    {% for val in page.tag_content.values %}
+    <li>
+        <code>{{ val.id | default:val}}</code> {% if val.required == false %} (optional) {% endif %}
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}

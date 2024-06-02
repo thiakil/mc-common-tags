@@ -1,0 +1,16 @@
+---
+layout: tag
+title: c/raw_materials (items tag)
+tag_type: items
+tag_content: {
+  "values": [
+    "#c:raw_materials/copper",
+    "#c:raw_materials/gold",
+    "#c:raw_materials/iron",
+    {
+      "id": "#forge:raw_materials",
+      "required": false
+    }
+  ]
+}
+---

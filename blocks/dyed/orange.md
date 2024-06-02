@@ -1,0 +1,30 @@
+---
+layout: tag
+title: c/dyed/orange (blocks tag)
+tag_type: blocks
+tag_content: {
+  "values": [
+    "minecraft:orange_banner",
+    "minecraft:orange_bed",
+    "minecraft:orange_candle",
+    "minecraft:orange_carpet",
+    "minecraft:orange_concrete",
+    "minecraft:orange_concrete_powder",
+    "minecraft:orange_glazed_terracotta",
+    "minecraft:orange_shulker_box",
+    "minecraft:orange_stained_glass",
+    "minecraft:orange_stained_glass_pane",
+    "minecraft:orange_terracotta",
+    "minecraft:orange_wall_banner",
+    "minecraft:orange_wool",
+    {
+      "id": "#forge:glass/orange",
+      "required": false
+    },
+    {
+      "id": "#forge:stained_glass/orange",
+      "required": false
+    }
+  ]
+}
+---
