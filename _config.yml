@@ -22,7 +22,7 @@ title: Cross-loader Minecraft Tags
 email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   Browseable version of cross-loader tags
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/mc-common-tags" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
